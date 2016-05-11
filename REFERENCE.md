@@ -1,18 +1,18 @@
 
-* [progressbar:spinner:new()](#progressbarspinnernew)
-* [progressbar:spinner:spin()](#progressbarspinnerspin)
+* [progress:spinner:new()](#progressspinnernew)
+* [progress:spinner:spin()](#progressspinnerspin)
 
 
-## progressbar:spinner:new()
+## progress:spinner:new()
 
 Creates new spinner coprocess. Spinner is inactive until
-`progressbar:spinner:spin()` is called.
+`progress:spinner:spin()` is called.
 
 ### Arguments
 
 * **$1** (var): Variable name to save ID reference to spinner.
 
-## progressbar:spinner:spin()
+## progress:spinner:spin()
 
 Consume stdin and display spinner, rotated per each line.
 Untouched stdin will be printed out back on stdout.
