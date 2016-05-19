@@ -25,6 +25,10 @@ progress:spinner:spin() {
     coproc:close-fd stdin
 }
 
+progress:spinner:stop() {
+    coproc:stop "$1"
+}
+
 _progress_spinner_loop() {
     local indicator='|/-\'
     local position=0
