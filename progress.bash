@@ -3,5 +3,5 @@ if ! declare -f import:source &>/dev/null; then
     source $_base_dir/vendor/github.com/reconquest/import.bash/import.bash
 fi
 
-import:source "github.com/reconquest/coproc"
+import:use "github.com/reconquest/coproc"
 import:include "spinner/spinner.bash"
