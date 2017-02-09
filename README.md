@@ -9,7 +9,7 @@ Simple progress indicators for bash scripts.
 ## Using [import.bash](https://github.com/reconquest/import.bash)
 
 ```bash
-import "github.com/reconquest/progress"
+import:use "github.com/reconquest/progress"
 ```
 
 # Reference
