@@ -1,7 +1,7 @@
 if ! declare -f import:use &>/dev/null; then
     _base_dir="$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
-    use $_base_dir/vendor/github.com/reconquest/import.bash/import.bash
+    source $_base_dir/vendor/github.com/reconquest/import.bash/import.bash
 fi
 
-import:use "github.com/reconquest/coproc"
+import:use "github.com/reconquest/coproc.bash"
 import:include "spinner/spinner.bash"
